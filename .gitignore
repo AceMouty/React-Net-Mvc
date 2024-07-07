@@ -398,4 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 **/node_modules
-./ReactMvc/Scripts/App
+./ReactMvc/Scripts/App/
