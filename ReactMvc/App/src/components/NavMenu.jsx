@@ -19,7 +19,7 @@ const navLinks = [
         path: "/Home/React"
     }
 ]
-export function NavMenu(props) {
+function NavMenu(props) {
     return (
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
             <div class="container">
