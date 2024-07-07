@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<main data-component="About">
+    <script type="application/json" data-props>
+        {
+            "Title": @Html.Raw(Json.Encode(ViewBag.Title)),
+            "Message": @Html.Raw(Json.Encode(ViewBag.Message))
+        }
+    </script>
+</main>
+
+@section scripts {
+    @Scripts.Render("~/Scripts/App/dist/About.js")
+}
