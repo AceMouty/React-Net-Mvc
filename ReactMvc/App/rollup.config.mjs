@@ -15,7 +15,7 @@ const entries = [
     {
         inputFile: "src/pages/About.jsx",
         outputFile: "../Scripts/App/dist/About.js",
-        bundleName: "NavMenu"
+        bundleName: "About"
     }
 ]
 
